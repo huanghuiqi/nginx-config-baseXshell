@@ -14,8 +14,9 @@
 
 
 ###配置:(每次修改完配置都需要service nginx reload一遍)
-加粗部分名字可以自行修改
-```vi /etc/nginx/conf.d/**api.testing.com**.conf```  
+加粗部分名字可以自行修改   
+
+vi /etc/nginx/conf.d/**api.testing.com**.conf
 
 ```
 server {
