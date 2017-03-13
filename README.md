@@ -13,13 +13,17 @@
 ```service nginx reload```   
 
 
-###配置：
-vi /etc/nginx/conf.d/api.testing.com.conf
+###配置：   
+加粗部分名字可以自行修改
+```vi /etc/nginx/conf.d/**api.testing.com**.conf```  
+
+```
 server {
         listen 80;
-        server_name  api.testing.com;
-        root  /data/www/api.testing.com;
-        charset utf8;
+        server_name  api.testing.com;
+        root  /data/www/api.testing.com;      
+	//root 默认为是你的公网ip地址比如 120.25.79.66 如果在api.testing.com下创建一个test文件夹里面一个index.html则通过 http:// 120.25.79.66/test/index.html打开
+        charset utf8;
 
 	location / {
 		index index.html index.htm index.php;
@@ -35,3 +39,4 @@ server {
         access_log  /data/logs/nginx/ api.testing.access.log;
         error_log  /data/logs/nginx/ api.testing.error.log;
 }
+```
