@@ -1,7 +1,8 @@
 # nginx-config-baseXshell
 在xshell下配置nginx服务器
 
-###安装nginx1.8
+### 安装nginx1.8   
+
 ```wget http://nginx.org/packages/centos/6/x86_64/RPMS/nginx-1.8.0-1.el6.ngx.x86_64.rpm```   
 
 ```rpm -ivh nginx-1.8.0-1.el6.ngx.x86_64.rpm```   
