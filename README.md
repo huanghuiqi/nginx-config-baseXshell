@@ -43,3 +43,8 @@ server {
         error_log  /data/logs/nginx/ api.testing.error.log;
 }
 ```
+
+——————————————————————————————————————————————————————————————————————————————————————
+# PHP中利用PHPMailer配合QQ邮箱实现发邮件
+## PHPMailer的获取：
+PHPMailer项目地址：https://github.com/PHPMailer/PHPMailer 使用Git命令克隆到本地，或直接在该项目页面的右下方点击“ Download ZIP ”即可获取到完整的PHPMailer代码包，再到本地解压即可。
